@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>EX formulários</h1>
+
+    <form action="">
+        <p>
+            <label for="ies">Estado</label>
+           <select name="es" id="ies">
+            <optgroup label="Estados Norte">
+                <option value="">----ESCOLHA----</option>
+                <option value="RS">RS</option>
+                <option value="SP">SP</option>
+                <option value="RJ">RJ</option>
+            </optgroup>
+            <optgroup label="Estados Sul">
+                <option value="ES">ES</option>
+                <option value="PR">PR</option>
+            </optgroup>
+           </select> 
+        </p>
+        <p>
+            <label for="imsg">Profissão</label>
+            <input type="text" name="nmsg" id="imsg" list="msg">
+            <datalist id="msg">
+                <option>Administração</option>
+                <option value="DEV">Desenvolvedor</option>
+            </datalist>
+        </p>
+         
+        <input type="submit" value="Enviar"><input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
