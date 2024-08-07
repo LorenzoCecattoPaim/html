@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        <label for="isat">Satisfação</label>
+        <input type="range" name="Satisfação" id="isat" min="0" max="10" oninput="numsat.innerHTML=Number(isat.value)" value="5">
+        <output id="numsat">5</output>
+    </p>
+    <h2>Idade</h2>
+    <p>
+        <label for="iano">Ano que você nasceu:</label>
+        <input type="number" name="Ano" id="iano" min="1900" max="2024" oninput="calcIdade()">
+    </p>
+    <p>
+        <label for="idade">Sua idade é:</label>
+        <output id="idade">1</output></p>
+    <script>
+        function calcIdade(){
+            let atual = new Date().getFullYear()
+            idade.innerHTML=Number(atual) -Number(iano.value) 
+        }
+    </script>
+</body>
+</html>
