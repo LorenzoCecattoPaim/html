@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .conteiner{
+            background-color: rgb(68, 68, 68);
+            
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        .item{
+            background-color: grey;
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px; 
+            flex-basis: auto;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="i1">A</div>
+        <div class="item" id="i2">espaço</div>
+        <div class="item" id="i3">C</div>
+        <div class="item" id="i4">Espaço um poouco maior</div>
+        <div class="item" id="i5">Espaço bem maior que vai ocupar um espaço maior</div>
+        <div class="item" id="i6">F</div>
+    </div>
+</body>
