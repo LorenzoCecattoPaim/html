@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+#barra{
+    height: 100px;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+#Formulário{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+#form1{
+    padding: 20px;
+    margin: 50px;
+}
+#Form2{
+    padding: 10px;
+}
+input,select{
+    display: block;
+    font-size: 0.7em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(203, 236, 203);
+    border: 1px solid rgba(0, 0, 0, 0.308);
+}
+#botão{
+    display: flex;
+}
+#botão div{
+    margin-right:10px;
+    padding: 5px;
+}
+#botão input{
+    background-color: darkgreen;}
+#botão input:hover{
+    background-color: rgb(92, 235, 92);
+}
