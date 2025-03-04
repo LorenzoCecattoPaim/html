@@ -9,6 +9,9 @@
     --cor4:#CA85C6;
     --cor5:#2C2A59;
 }
+body{
+    background: var(--cor1);
+}
 #cima{
     height: 30px;
     background-color: rgb(112, 112, 112);
@@ -44,40 +47,169 @@
     background-color: white;
 }
 #fundo{
-    background-image: url("imagens/fundo-tenis.avif");
+    background-image: url("imagens/fundo-tenis.jpg");
     background-size:cover;
     height: 650px;
+    width: 930px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
 }
 #titulo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100%;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
 }
-
+#texto{
+    width: 50%;
+    margin: 30px;
+    font-size: 30px;
+    color: var(--cor5);
+}
+#botao button{
+    background-color: #D9CDB8;
+    color: #837c70;
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+#botao button:hover{
+    background-color: white;
+}
+#pontos{
+    display: flex;
+    height: 300px;
+    width: 930px;
+    margin-bottom: 30px;
+}
 #bons{
     display: flex;
-    text-align: center;
     justify-content: center;
-    background-color: black;
-    height: 400px;
+    flex: 1;
 }
 #preço,#qualidade,#entrega{
     flex: 1;
 }
-#preço{
-    background-color: #2C2A59;
-}
-#qualidade{
-    background-color: #CA85C6;
-}
-#entrega{
-    background-color: aqua;
-}
-.símbolo{
+
+.desenho{
     background-color: aquamarine;
+    background-image: url("imagens/caminhão.jpg");
+    background-size: cover;
     height: 100px;
     width: 100px;
     border-radius: 50%;
+}
+.desenho1{
+    background-image: url("imagens/Dinheiro.jpg");
+    background-size: cover;
+}
+.desenho2{
+    background-image: url("imagens/personalização.jpg");
+    background-size: cover;
+}
+.nome{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.desc{
+    display: flex;
+    justify-content: center;
+}
+.desc p{
+    text-align: center;
+    margin: 5px;
+}
+#txt{
+    display: flex;
+    justify-content: center;
+}
+.símbolo{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+#subtitu{
+    margin-left: 15px;
+    font-size: 25px;
+}
+#venda{
+    display: flex;
+    margin-left: 10px;
+}
+#produtos{
+    margin: 10px;
+    border: 1px solid black;
+    background-color: white;
+    height: 300px;
+    width: 200px;
+}
+.sale{
+    background-color: red;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foto{
+    background-image: url("imagens/sapato-v1.jpg");
+    margin: 20px;
+    width: 160px;
+    height: 150px;
+
+}
+.foto2{
+    background-image: url("imagens/sapato-v2.jpg");
+    margin: 20px;
+    width: 160px;
+    height: 150px;
+
+}
+.foto3{
+    background-image: url("imagens/tenis-v3.jpg");
+    margin: 20px;
+    width: 160px;
+    height: 150px;
+
+}
+.foto4{
+    background-image: url("imagens/tenis-v4.jpg");
+    margin: 20px;
+    width: 160px;
+    height: 150px;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.nometenis{
+    font-weight: bold;
+    margin: 10px;
+    font-size: 24px;
+}
+.preço{
+
+}
+.carinho input{
+    text-decoration: none;
+    margin: 10px;
+    background-color: var(--cor2);
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 15px;
+}
+.carinho input:hover{
+    background-color: var(--cor1);
 }

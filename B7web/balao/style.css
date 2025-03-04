@@ -1,0 +1,17 @@
+div{
+    display: inline-block;
+    background-color: blue;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+div::after{
+    content: '';
+
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    border: 30px solid;
+    border-color: blue transparent transparent transparent;
+}

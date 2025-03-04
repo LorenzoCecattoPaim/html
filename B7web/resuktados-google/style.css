@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+}
+
+#img img{
+    width: 170px;
+    height: 110px;
+}
+#busca{
+    display: flex;
+    border: 1px solid black;
+    width: 50%;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+#pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+#icons div{
+    margin: 15px;
+}
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    width: 100%;
+    margin-right: 10px;
+}
+#canto{
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 5px ;
+    margin-left: 15px;
+    flex: 1;
+}
+.tres_pontos div {            
+    background-color: #5F6368;
+    border-radius: 2px;
+    width: 5px;
+    height: 5px;
+    margin: 1px;    
+}
+#widget{
+    background-color: black;
+    height: 10px;
+    width: 10px;
+}
+#foto{
+    background-color: gray;
+    margin: 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.menubotao{
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin: 15px;
+    text-decoration: none;
+}
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+#menu a:hover{
+    color: blue;
+}
+#menurow{
+    margin-top: 0px;
+    border-color: blue; 
+}
+#pesquisab{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.titulo,.resumo,.link{
+    margin: 5px;
+}
+.resumo{
+    width: 650px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.resultado{
+    width: 680px;
+    margin: 5px;
+    justify-content: start;
+}
+.titulo{
+    font-size: 30px;
+    color: rgb(8, 8, 247);
+}
+.link a{
+    color: rgb(56, 160, 56);
+    font-size: 17px;
+}
+h1{
+    font-size: 18px;
+}

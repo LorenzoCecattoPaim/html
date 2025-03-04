@@ -1,0 +1,9 @@
+
+tbody,thead,tfoot,th,tr,td{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0px;
+}
+tbody tr:nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.438);
+}
