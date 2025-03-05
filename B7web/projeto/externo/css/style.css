@@ -63,7 +63,7 @@ header{
 
 
 .banner{
-    height:calc(100vh - 100px);
+    height:calc(100dvh - 100px);
     background-color: #333;
     background-image: url(../imagens/complementos/bg.jpg);
     background-size: cover;
@@ -72,11 +72,11 @@ header{
 }
 .banner .sliders{
     height: 100%;
-    width: 1000vw;
+    width: 1000dvw;
 }
 .banner .slide{
     height: 100%;
-    width: 100vw;
+    width: 100dvw;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.808);
 }
@@ -112,7 +112,7 @@ header{
     border-radius: 20px;
 }
 .banner .pointer{
-    width: 100vw;
+    width: 100dvw;
     height: 20px;
 
     position: absolute;
@@ -135,7 +135,7 @@ header{
 }
 .default{
 
-    width: 100vw;
+    width: 100dvw;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -281,7 +281,7 @@ Parte especídica
 }
 
 .fotos{
-    width: 100vw;
+    width: 100dvw;
     max-width: 1140px;
     margin-top: 20px;
     display: flex;
@@ -340,7 +340,7 @@ Parte especídica
 }
 .section-team .sliders{
     height: 100%;
-    width: 1000vw;
+    width: 1000dvw;
 }
 .section-team .slide{
     height: 100%;
@@ -389,7 +389,7 @@ Parte especídica
     overflow:hidden;
 }
 .section-testimonials .sliders {
-    width:1000vw;
+    width:1000dvw;
     height:100%;
 }
 .section-testimonials .slide {
@@ -447,7 +447,7 @@ Parte especídica
 
 
 .pessoa{
-    width: 100vw;
+    width: 100dvw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -796,7 +796,7 @@ section.default.light.Premiung{
 }
 
 .section-map-area{
-    width: 100vw;
+    width: 100dvw;
     max-width: 1140px;
     margin: auto;
 }
@@ -878,8 +878,8 @@ input[type=email]::placeholder{
         position: absolute;
         z-index: 99;
         background-color: rgba(0, 0, 0, 0.9);
-        width: 80vw;
-        height: calc(100vh - 100px);
+        width: 80dvw;
+        height: calc(100dvh - 100px);
         top: 100px;
         right: 0;
     }
@@ -1017,7 +1017,7 @@ input[type=email]::placeholder{
         justify-content: flex-start;
     }
     .section-share--legend {
-        width:100vw;
+        width:100dvw;
         margin:0;
         margin-bottom:30px;
         justify-content: center;
@@ -1033,7 +1033,7 @@ input[type=email]::placeholder{
     }
 
     .section-contact {
-        max-width:100vw;
+        max-width:100dvw;
         margin-left:20px;
         margin-right:20px;
     }
@@ -1073,8 +1073,8 @@ input[type=email]::placeholder{
         position: absolute;
         z-index: 99;
         background-color: rgba(0, 0, 0, 0.9);
-        width: 70vw;
-        height: calc(100vh - 100px);
+        width: 70dvw;
+        height: calc(100dvh - 100px);
         top: 100px;
         right: 0;
     }
