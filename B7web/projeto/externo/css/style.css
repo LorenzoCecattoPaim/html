@@ -874,6 +874,9 @@ input[type=email]::placeholder{
 
 
 @media (max-width:450px) {
+    body{
+        width: 1000dvw;
+    }
     nav{
         display: none;
         position: absolute;
@@ -1069,6 +1072,10 @@ input[type=email]::placeholder{
 }
 
 @media (min-width:450px) and (max-width:800px) {
+    body{
+        width: 1000dvw;
+    }
+
     nav{
         display: none;
         position: absolute;
