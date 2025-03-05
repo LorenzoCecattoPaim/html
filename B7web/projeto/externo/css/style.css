@@ -1069,13 +1069,19 @@ input[type=email]::placeholder{
     .Premium{
         flex-direction: column;
     }
+
+    main{
+        width: 1000dvw;
+    }
 }
 
 @media (min-width:450px) and (max-width:800px) {
     body{
         width: 1000dvw;
     }
-
+    main{
+        width: 1000dvw;
+    }
     nav{
         display: none;
         position: absolute;
