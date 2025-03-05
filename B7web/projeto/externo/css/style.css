@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    width: 100dvw;
     font-family: "Montserrat",Arial, Helvetica, sans-serif;
     font-size: 13px;
     overflow-x: hidden;
@@ -70,7 +71,10 @@ header{
     background-position: bottom;
     overflow: hidden;
 }
-
+.banner .sliders{
+    height: 100%;
+    width: 1000dvw;
+}
 .banner .slide{
     height: 100%;
     width: 100dvw;
