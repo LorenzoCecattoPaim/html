@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    grid-gap: 10px;
+    background-color: #ccc;
+    grid-template-columns:repeat(3, auto);
+    grid-template-areas: 
+    "header header header header"
+    "nav cont cont cont"
+    "ad cont cont cont"
+    "footer footer footer footer"
+    ;
+}
+
+.item{
+    padding: 20px;
+    background-color: blue;
+    border-radius: 10px;
+    font-size: 20px;
+}
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+
+section{
+    grid-area: cont;
+}
+
+
+footer{
+    grid-area: footer;
+}
+
+div{
+    grid-area: ad;
+}
